@@ -4,6 +4,7 @@ from rest_framework import generics
 from rest_framework.serializers import Serializer
 from . serializers import CustomerSerializer,ProductSerializer,TransectionSerializer
 from . models import Product, Customer, Transection
+
 # Create your views here.
 
 class CustomerList(generics.ListCreateAPIView):
